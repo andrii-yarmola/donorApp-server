@@ -12,7 +12,8 @@
  */
 
 module.exports = function created (data, options) {
-  data.token = 'hhhhhhhhhhhhhh';
+  data.token = 'ThisIsMyToken';
+  data.identifier = 'gaistruk@gmail.com';
   // Get access to `req`, `res`, & `sails`
   var req = this.req;
   var res = this.res;
